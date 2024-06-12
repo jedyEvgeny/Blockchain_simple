@@ -8,5 +8,5 @@ func main() {
 	bc := chain.CreateBlockchain()
 	bc.AddBlock("Отправлено 1 BTC Евгению")
 	bc.AddBlock("Отправлено ещё 30 BTC Евгению")
-	chain.PrintBlockChain(bc) // используем метод из внешнего пакета
+	chain.PrintBlockChain(bc)
 }
